@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Johan Eenfeldt
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/cache-translation-object\n"
+"POT-Creation-Date: 2009-10-22 22:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: cache-translation-object-apc.php:17
+msgid "APC PHP module not available"
+msgstr ""
+
+#: cache-translation-object-apc.php:54 cache-translation-object-file.php:80
+#: cache-translation-object-shm.php:64
+#, php-format
+msgid "%d bytes cached"
+msgstr ""
+
+#: cache-translation-object-apc.php:56 cache-translation-object-file.php:82
+#: cache-translation-object-shm.php:66
+#, php-format
+msgid "from %d locale"
+msgid_plural "from %d locales"
+msgstr[0] ""
+msgstr[1] ""
+
+#: cache-translation-object-file.php:30
+#, php-format
+msgid "%s is write-protected"
+msgstr ""
+
+#: cache-translation-object-shm.php:18
+msgid "Shared Memory PHP module not available"
+msgstr ""
+
+#: cache-translation-object-shm.php:190 cache-translation-object-shm.php:201
+#: cache-translation-object-shm.php:217
+#, php-format
+msgid "Storage error in %s (%d). Please report."
+msgstr ""
+
+#: cache-translation-object.php:38
+msgid "APC (Alternative PHP Cache)"
+msgstr ""
+
+#: cache-translation-object.php:41
+msgid "SHMOP (Shared Memory)"
+msgstr ""
+
+#: cache-translation-object.php:44
+msgid "Filesystem"
+msgstr ""
+
+#: cache-translation-object.php:114
+msgid "Could not load persistent storage functions! Please check storage type."
+msgstr ""
+
+#: cache-translation-object.php:120
+msgid "Persistent storage not available! Please check storage type."
+msgstr ""
+
+#: cache-translation-object.php:131
+msgid "Non-consistent locale value! Plugin collision?"
+msgstr ""
+
+#: cache-translation-object.php:139
+msgid "Translation object already exists! Plugin collision?"
+msgstr ""
+
+#: cache-translation-object.php:153
+msgid "Stored object not array. Please report error!"
+msgstr ""
+
+#: cache-translation-object.php:166
+msgid "Stored object not MO object. Please report error!"
+msgstr ""
+
+#: cache-translation-object.php:356
+msgid "Error:"
+msgstr ""
+
+#. Plugin Name of an extension
+msgid "Cache Translation Object"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://devel.kostdoktorn.se/cache-translation-object/"
+msgstr ""
+
+#. Description of an extension
+msgid ""
+"Substantially increase performance of localized WordPress by caching the "
+"translation (l10n) object. Works with most multiple locale plugins."
+msgstr ""
+
+#. Author of an extension
+msgid "Johan Eenfeldt"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://devel.kostdoktorn.se"
+msgstr ""

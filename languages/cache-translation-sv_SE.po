@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Johan Eenfeldt
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cache Translation Object 1.1\n"
+"Report-Msgid-Bugs-To: http://devel.kostdoktorn.se/cache-translation-object\n"
+"POT-Creation-Date: 2009-10-22 22:07+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Johan Eenfeldt <johan.eenfeldt@kostdoktorn.se>\n"
+"Language-Team: Translation <johan.eenfeldt@kostdoktorn.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+
+#: cache-translation-object-apc.php:17
+msgid "APC PHP module not available"
+msgstr "APC PHP modul ej tillg&auml;nglig"
+
+#: cache-translation-object-apc.php:54
+#: cache-translation-object-file.php:80
+#: cache-translation-object-shm.php:64
+#, php-format
+msgid "%d bytes cached"
+msgstr "%d bytes lagrade"
+
+#: cache-translation-object-apc.php:56
+#: cache-translation-object-file.php:82
+#: cache-translation-object-shm.php:66
+#, php-format
+msgid "from %d locale"
+msgid_plural "from %d locales"
+msgstr[0] "fr&aring;n %d spr&aring;k"
+msgstr[1] "fr&aring;n %d spr&aring;k"
+
+#: cache-translation-object-file.php:30
+#, php-format
+msgid "%s is write-protected"
+msgstr "%s &auml;r skrivskyddad"
+
+#: cache-translation-object-shm.php:18
+msgid "Shared Memory PHP module not available"
+msgstr "Shared Memory PHP modul ej tillg&auml;nglig"
+
+#: cache-translation-object-shm.php:190
+#: cache-translation-object-shm.php:201
+#: cache-translation-object-shm.php:217
+#, php-format
+msgid "Storage error in %s (%d). Please report."
+msgstr "Lagringsfel i %s (%d). Anm&auml;l g&auml;rna."
+
+#: cache-translation-object.php:38
+msgid "APC (Alternative PHP Cache)"
+msgstr "APC (Alternative PHP Cache)"
+
+#: cache-translation-object.php:41
+msgid "SHMOP (Shared Memory)"
+msgstr "SHMOP (Shared Memory)"
+
+#: cache-translation-object.php:44
+msgid "Filesystem"
+msgstr "Filsystem"
+
+#: cache-translation-object.php:114
+msgid "Could not load persistent storage functions! Please check storage type."
+msgstr "Det gick inte att starta lagringsfunktionen! Kontrollera val av lagringsalternativ."
+
+#: cache-translation-object.php:120
+msgid "Persistent storage not available! Please check storage type."
+msgstr "Lagring ej aktiv. Kontrollera val av lagringsalternativ."
+
+#: cache-translation-object.php:131
+msgid "Non-consistent locale value! Plugin collision?"
+msgstr "Inkonsekvent spr&aring;kv&auml;rde! Kollision med annat insticksprogram?"
+
+#: cache-translation-object.php:139
+msgid "Translation object already exists! Plugin collision?"
+msgstr "&Ouml;vers&auml;ttningsobjekt finns redan! Kollision med annat insticksprogram?"
+
+#: cache-translation-object.php:153
+msgid "Stored object not array. Please report error!"
+msgstr "Lagrat objekt ej array. Anm&auml;l g&auml;rna."
+
+#: cache-translation-object.php:166
+msgid "Stored object not MO object. Please report error!"
+msgstr "Lagrat objekt ej av typ MO. Anm&auml;l g&auml;rna."
+
+#: cache-translation-object.php:356
+msgid "Error:"
+msgstr "Fel:"
+
+#. Plugin Name of an extension
+msgid "Cache Translation Object"
+msgstr "Cache Translation Object"
+
+#. Plugin URI of an extension
+msgid "http://devel.kostdoktorn.se/cache-translation-object/"
+msgstr "http://devel.kostdoktorn.se/cache-translation-object/"
+
+#. Description of an extension
+msgid "Substantially increase performance of localized WordPress by caching the translation (l10n) object. Works with most multiple locale plugins."
+msgstr "&Ouml;kar markant WordPress prestanda genom att lagra &ouml;vers&auml;ttnings (l10n) objektet. Hanterar de flesta fler-spr&aring;ks insticks program"
+
+#. Author of an extension
+msgid "Johan Eenfeldt"
+msgstr "Johan Eenfeldt"
+
+#. Author URI of an extension
+msgid "http://devel.kostdoktorn.se"
+msgstr "http://devel.kostdoktorn.se"
+
